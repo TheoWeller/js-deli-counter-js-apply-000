@@ -1,4 +1,4 @@
-var katzDeli = [];
+var katzDeliLine = [];
 
 function currentLine(line){
   if(line.length < 1) {
