@@ -2,7 +2,7 @@ var katzDeliLine = [];
 
 function currentLine(line){
   if(line.length < 1) {
-    return "The line is currently empty.";
+    return `The line is currently empty.`;
   }
   var lineDetails = [];
 
@@ -10,8 +10,8 @@ function currentLine(line){
   for(var i=0; i<line.length; i++) {
     lineDetails.push(i+1 + ". "+ line[i]);
   }
-  console.log("The line is currently: " + lineDetails)
-  return "The line is currently: " + lineDetails.join(', ');
+  console.log(`The line is currently: ${lineDetails}`)
+  return `The line is currently: " ${lineDetails.join(', ')}`;
 }
 
 function nowServing(line) {
