@@ -25,15 +25,16 @@ function nowServing(line) {
 }
 
 function takeANumber(line, name){
+//ADD NAME TO END OF ARRAY
   line.push(name);
 
   console.log(`Welcome, ${name}. You are number ${line.length} in line.`);
 
-  return `Welcome, ${name}. You are number ${line.length} in line.`
+  //return `Welcome, ${name}. You are number ${line.length} in line.`
 }
 
 
-takeANumber(katzDeliLine, "Matz");
+
 
 
 
