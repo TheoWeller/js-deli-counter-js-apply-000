@@ -4,14 +4,14 @@ function currentLine(line){
   if(line.length < 1) {
     return "The line is currently empty.";
   }
-  var lineNamesandNumbers = [];
+  var lineDetails = [];
 
   //iterate through array
   for(var i=0; i<line.length; i++) {
     lineNamesandNumbers.push(i+1 + ". "+ line[i]);
   }
-  console.log("The line is currently: " + lineNamesandNumbers)
-  return "The line is currently: " + lineNamesandNumbers.join(', ');
+  console.log("The line is currently: " + lineDetails)
+  return "The line is currently: " + lineDetails.join(', ');
 }
 
 function nowServing(line) {
