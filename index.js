@@ -26,9 +26,9 @@ function nowServing(line) {
 
 function takeANumber(line, name){
   line.push(name);
-  
+
   console.log(`Welcome, ${name}. You are number ${line.length} in line.`);
-  
+
   return `Welcome, ${name}. You are number ${line.length} in line.`
 }
 
@@ -66,7 +66,7 @@ if (katzDeliLine.length < 1) {
   katzDeliLine.shift();
   assignedLineNum - 1;
   };
-return katzDeliLine; 
+return katzDeliLine;
 };
 
 
@@ -74,8 +74,3 @@ function currentLine() {
 console.log(`The line is currently: ${currentLineArray.join()}`);
 };
 */
-
-
-
-
-
